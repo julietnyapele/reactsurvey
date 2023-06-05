@@ -1,0 +1,72 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+ 
+label {
+  display: flex;
+  justify-content: flex-start;
+}
+
+  input[type="email"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+ 
+  .btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(10, 37, 155);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f44336;
+    border: none;
+    cursor: pointer;
+  }
+  form {
+    background-color: #f2f2f2;
+    color: rgb(163, 151, 151);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .btn:hover {
+    background-color: #ca0f0f;
+  }
+  
+  .form-group {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .hide-form {
+    display: none;
+  }
+  
+  .savey {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #f44336;
+  }
+  

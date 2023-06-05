@@ -1,0 +1,57 @@
+.time-button-container {
+    display: flex;
+    justify-content: flex-end; /* Changed from 'center' to 'flex-end' */
+    align-items: center;
+    margin-bottom: 20px;
+    }
+    
+    .circular-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 500px; /* Added margin to create space between button and container */
+    }
+
+    /* Dashboard.css */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .profile-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color:rgb(152, 129, 129);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .profile-button:hover {
+    transform: scale(1.1);
+  }
+
+ /* body{
+    background-image: url('https://t3.ftcdn.net/jpg/03/74/50/22/240_F_374502270_TlcHfJDjSYLZbwcvgY6B8RnmFvIg7hOQ.jpg');
+    background-repeat: no-repeat;
+    background-size: 95%;
+  } */
+  
